@@ -1,9 +1,18 @@
 <template>
+  <div>
     <h1>Olá Vue!</h1>
+    <p>Meu nome é {{ nome }} e eu sou um {{ ocupação }}</p>
+  </div>
 </template>
 
 <script>
  export default {
-    name: "PrimeiroComponente"
+    name: "PrimeiroComponente",
+    data() {
+        return {
+            nome: "Gustavo",
+            ocupação: "estudante"
+        }
+    }
  }
 </script>
