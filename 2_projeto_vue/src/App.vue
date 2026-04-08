@@ -1,7 +1,7 @@
 <template>
  <div>
   <PrimeiroComponente />
-  <p>O dado do epp é {{ testando }}</p>
+  <p class="paragrafo-pai">O dado do epp é {{ testando }}</p>
   <LifeCycle />
   <Pessoa />
   </div>
@@ -26,3 +26,18 @@ export default {
   }
 }
 </script>
+
+<style>
+   body {
+    background-color: #333;
+    color: #fff;
+   }
+
+   a {
+    color: red;
+   }
+
+   .teste {
+    background-color: black;
+   }
+</style>
