@@ -28,11 +28,11 @@ export default {
             email: "gustavo@gmail.com",
             meu_link: "https://google.com",
             textoBotao: "Mostrar e-mail",
-            backend_tecnologies: ['Javascript', 'PHP', "Python"],
+            backend_tecnologies: ["Javascript", "PHP", "Python"],
             frontend_tecnologies: [
-                {id: 1, language: 'HTML'},
-                {id: 2, language: 'CSS'},
-                {id: 3, language: 'Vue'}
+                {id: 1, language: "HTML"},
+                {id: 2, language: "CSS"},
+                {id: 3, language: "Vue"}
             ]
         }
     },
