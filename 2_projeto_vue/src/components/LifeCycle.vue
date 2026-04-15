@@ -20,7 +20,7 @@ export default {
     mounted() {
         setTimeout(() => {
         this.nome = "Ethan"
-        }, 2000);
+        }, 1000);
         this.nome = "Gustavo"
     },
     methods: {
